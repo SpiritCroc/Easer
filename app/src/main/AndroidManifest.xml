@@ -30,6 +30,7 @@
         tools:ignore="ProtectedPermissions" /> <!-- This is for some operations which do not guarantee to work -->
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:name=".EaserApplication"
